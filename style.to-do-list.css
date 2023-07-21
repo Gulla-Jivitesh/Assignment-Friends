@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/383/904/large_2x/a-book-pen-and-flower-is-placed-on-white-background-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .task {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .task input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .task button {
+    padding: 8px;
+    background-color: #4caf50;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .task button.edit {
+    background-color: green;
+  }
+
+  .task button.delete {
+    background-color: #f44336;
+  }
+
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
